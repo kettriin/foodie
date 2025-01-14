@@ -1,0 +1,156 @@
+body{
+    font-family: Montserrat, Cambria, Cochin, Georgia, Times, serif;
+}
+
+#sticky{
+    position: sticky;
+}
+
+#sticky > div{
+    display: inline-block;
+    margin-bottom: 35px;
+}
+
+#name{
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-left: 7%;
+}
+
+#refs{
+    margin-right: 8%;
+    margin-left: 40%;
+}
+
+#refs > p{
+    display: inline-block;
+    margin: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #694309;
+}
+
+#sticky p:hover{
+    color: #90b76a;
+}
+
+#info{
+    background-color: #d7cab4;
+    max-height: 578px;
+}
+
+#info > img{
+    max-height: 578px;
+    z-index: 1;
+    display: inline-block;
+}
+
+#info > h3{
+    position: relative;
+    top: -600px;
+    z-index: 2;
+    color: #694309;
+    font-size: 40px;
+    text-align: right;
+    margin-right: 2%;
+}
+
+#info > p{
+    position: relative;
+    top: -600px;
+    z-index: 2;
+    margin-right: 2%;
+
+    font-size: 18px;
+    color: hwb(50 16% 69%);
+    text-align: right;
+}
+
+#form{
+    font-size: 14px;
+    position: relative;
+    top: -600px;
+    z-index: 2;
+    text-align: justify;
+    background-color: white;
+    color: hwb(50 16% 69%);
+    width: 360px;
+    height: 200px;
+    margin-left: 67%;
+    margin-top: 4%;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.input{
+    width: 350px;
+    height: 20px;
+    padding: 7px;
+    margin: 10px -7px;
+
+    background-color: white;
+    color: hwb(50 52% 34%);
+    
+    border: solid #d7cab4;
+    border-radius: 10px;
+}
+
+.input:hover{
+    border: solid #e4e798;
+    color: #977563;
+}
+
+#button{
+    width: 350px;
+    height: 20px;
+    padding: 7px;
+    margin: 10px -7px;
+
+    text-align: center;
+    font-weight: 500;
+
+    background-color: #e4e798;
+    color: #694309;
+
+    border-radius: 10px;
+}
+
+#button:hover{
+    background-color: #90b76a;
+}
+
+#advantage{    
+    text-align: center;
+    font-size: 28px;
+    color: #49452a;
+}
+
+.card {
+    width: 22%;
+    margin: 10px;
+    padding: 10px;
+    
+    border: 1px solid #977563;
+    background-color: #fff;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+
+    display: inline-block;
+
+    font-size: 20px;
+    color: #49452a;
+}
+
+.card img {
+    max-width:80%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    background-color: rgba(250, 235, 215, 0.606);
+}
+
