@@ -51,16 +51,16 @@ body{
     top: -600px;
     z-index: 2;
     color: #694309;
-    font-size: 40px;
+    font-size: 36px;
     text-align: right;
-    margin-right: 2%;
+    margin-right: 3%;
 }
 
 #info > p{
     position: relative;
     top: -600px;
     z-index: 2;
-    margin-right: 2%;
+    margin-right: 3%;
 
     font-size: 18px;
     color: hwb(50 16% 69%);
